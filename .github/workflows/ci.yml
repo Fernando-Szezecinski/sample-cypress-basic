@@ -1,0 +1,12 @@
+name: e2e_tests
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubunto-20.4
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        # Install NPM dependencies, caches them correctly
+        # and runs all cypress tests
+      - name: cypress_run
+        uses: cypress-io/github-action@v2
