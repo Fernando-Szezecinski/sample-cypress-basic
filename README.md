@@ -6,7 +6,7 @@ Course certificate:
 https://github.com/Fernando-Szezecinski/sample-cypress-basic/blob/main/cypress/fixtures/cypress-1-.pdf
 
 
-What does this project contains?
+What does this project contain?
 1) [Cypress] This project contains a few simple examples on how to perform basic Cypress operations
 3) [Continuous_integration] An example of how to trigger cypress tests via Github actions and how they are displayed when a test fails
 
