@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Central de atendimento CAC TAT', ()=>{
+describe('Attendance center - CAC TAT', ()=>{
 
     beforeEach(function(){
         cy.visit('./src/index.html')
