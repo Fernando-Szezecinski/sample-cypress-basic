@@ -1,5 +1,5 @@
 # sample-cypress-basic
-This project is completly based on this course: https://www.udemy.com/course/testes-automatizados-com-cypress-basico/
+This project is completely based on this course: https://www.udemy.com/course/testes-automatizados-com-cypress-basico/
 
 
 Certificate:
