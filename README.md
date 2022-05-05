@@ -16,7 +16,7 @@ Prerequisites / Tech stack:
 
 
 How do I run tests?
-- Currently there are 3 comands that can be used to run tests:
+Currently there are 3 commands that can be used to run tests:
 1) This command is used to open cypress locally: **npm run cy:open**
 2) This command is used to run cypress in mobile viewport: **npm run cy:open:mobile**
 3) This command is used to run cypress in headless mode: **npm test**
