@@ -23,7 +23,7 @@ How do I run tests?
 
 
 What is the difference between each test?
-Each test contains an example of how to deal with a certain browser element/condition:
+Each test contains an example on how to deal with a certain browser element/condition:
 
 1) It contains an example on how to verify if page`s title contains expected value.
 2) It contains an example on how to type texts on input fields using a custom delay as well.
