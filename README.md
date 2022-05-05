@@ -7,7 +7,8 @@ Sorry, I'm still taking the course :P
 
 
 What does this project contains?
-This project contains a few simple examples on how to perform basic Cypress operations
+1) [Cypress] This project contains a few simple examples on how to perform basic Cypress operations
+2) [Continuous_integration] An example of how to trigger cypress tests via Github actions
 
 
 Prerequisites / Tech stack:

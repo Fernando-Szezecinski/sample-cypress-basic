@@ -35,7 +35,7 @@ describe('Attendance center - CAC TAT', ()=>{
     it('4-Verifying that phone number allows only numeric values', () => {
         cy.get('#phone')
             .type('whatever')
-            .should('have.value','')      
+            .should('have.value','bug')      
     })
 
     it('5-Checking if phone number is required', () => {
