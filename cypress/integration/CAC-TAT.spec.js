@@ -199,7 +199,7 @@ describe('Attendance center - CAC TAT', ()=>{
                 .should('have.value', longText)
     })
 
-    it.only('24-Submitting HTTP request via Cypress', () => {
+    it('24-Submitting HTTP request via Cypress', () => {
         
         cy.request('https://www.youtube.com/')
             .should((res) => {
