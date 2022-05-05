@@ -42,6 +42,6 @@ Each test contains an example on how to deal with a certain browser element/cond
 15) It contains an example on how to upload files from a local folder.
 16) It contains an example on how to drag-and-drop a file from a local folder.
 17) It contains an example on how to use alias instead of long system directories.
-18) It contains an example on how to check if an element contains the required attribute to trigger a new browser tab. - Trouble shootting to deal with cypress limitation.
-19) It contains an example on how to access a different browser tab content. - Trouble shootting to deal with cypress limitation.
+18) It contains an example on how to check if an element contains the required attribute to trigger a new browser tab. - troubleshooting to deal with cypress limitation.
+19) It contains an example on how to access a different browser tab content. - troubleshooting to deal with cypress limitation.
 20) ...
