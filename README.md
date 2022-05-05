@@ -2,8 +2,8 @@
 This project is completely based on this course: https://www.udemy.com/course/testes-automatizados-com-cypress-basico/
 
 
-Certificate:
-Sorry, I'm still taking the course :P
+Course certificate: 
+https://github.com/Fernando-Szezecinski/sample-cypress-basic/blob/main/cypress/fixtures/cypress-1-.pdf
 
 
 What does this project contains?
