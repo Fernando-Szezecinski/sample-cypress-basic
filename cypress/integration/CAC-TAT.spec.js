@@ -146,4 +146,70 @@ describe('Attendance center - CAC TAT', ()=>{
         cy.contains('Talking About Testing')
     })
 
+    it('20-Checking if success message vanishes after 3s', () => {
+
+        const bigText = 'Lorem ipsum dolor sit amet, m. Integer venenatis vestibulum vestibulum.'
+        //Freezing browser's clock
+        cy.clock()
+
+        cy.get('#firstName').type('Fernando')
+        cy.get('#lastName').type('Szezecinski')
+        cy.get('#email').type('szezecinski1@gmail.com')
+        cy.get('#open-text-area').type(bigText, {delay:0})
+        cy.get('button[type="submit"]').click()
+        cy.get('.success').should('be.visible')
+
+        //Advancing on time in 3 seconds
+        cy.tick(3000)
+
+        cy.get('.success').should('not.be.visible')
+    })
+
+    Cypress._.times(3, () => {
+        it('21-Using loadash to run the same test 3 times', ()=>{
+            cy.get('#privacy a')
+            .should('have.attr', 'target', '_blank')
+        })
+    })
+
+    it('22-Checking both alerts without performing all steps', () => {
+
+        cy.get('.success')
+            .should('not.be.visible')
+                .invoke('show')
+            .should('be.visible')
+            .and('contain', 'Mensagem enviada com sucesso.')
+                .invoke('hide')
+            .should('not.be.visible')
+
+        cy.get('.error')
+            .should('not.be.visible')
+                .invoke('show')
+            .should('be.visible')
+            .and('contain', 'Valide os campos obrigatórios!')
+                .invoke('hide')
+            .should('not.be.visible')
+    })
+
+    it('23-Filling out field using invoke + val', () => {
+        const longText = Cypress._.repeat('0123456789', 10)
+
+        cy.get('#open-text-area')
+            .invoke('val', longText)
+                .should('have.value', longText)
+    })
+
+    it.only('24-Submitting HTTP request via Cypress', () => {
+        
+        cy.request('https://www.youtube.com/')
+            .should((res) => {
+                const {status, statusText, body } = res
+
+                expect(status).to.equal(200)
+                expect(statusText).to.equal('OK')
+                expect(body).to.include('Home')
+            })
+    })
+
+
 })

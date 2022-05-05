@@ -8,7 +8,8 @@ Sorry, I'm still taking the course :P
 
 What does this project contains?
 1) [Cypress] This project contains a few simple examples on how to perform basic Cypress operations
-2) [Continuous_integration] An example of how to trigger cypress tests via Github actions
+3) [Continuous_integration] An example of how to trigger cypress tests via Github actions and how they are displayed when a test fails
+
 
 
 Prerequisites / Tech stack:
@@ -43,6 +44,10 @@ Each test contains an example on how to deal with a certain browser element/cond
 15) It contains an example on how to upload files from a local folder.
 16) It contains an example on how to drag-and-drop a file from a local folder.
 17) It contains an example on how to use alias instead of long system directories.
-18) It contains an example on how to check if an element contains the required attribute to trigger a new browser tab. - troubleshooting to deal with cypress limitation.
+18) It contains an example on how to check if an element contains the required attribute to trigger a new browser tab. - troubleshooting to deal with Cypress limitation.
 19) It contains an example on how to access a different browser tab content. - troubleshooting to deal with cypress limitation.
-20) ...
+20) It contains an example on how to use Cypress clock() and tick() methods to advance in time and reduce test duration.
+21) It contains an example on how to lodash via Cypress
+22) It contains an example on how to use invoke + show/hide to validate both alerts without having to perform all steps
+23) It contains an example on how to use invoke + to fill out some text fields
+24) It contains an example on how to use Cypress to submit HTTP requests
